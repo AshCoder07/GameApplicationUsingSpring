@@ -1,8 +1,9 @@
 package com.aswin.springproject1.game;
 
 public class gameRunner {
-	marioGame game;
-	public gameRunner(marioGame game) {
+//	private marioGame game;
+	private gamingConsole game;
+	public gameRunner(gamingConsole game) {
 		this.game=game;
 	}
 	public void run() {

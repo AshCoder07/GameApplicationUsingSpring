@@ -1,18 +1,16 @@
 package com.aswin.springproject1.game;
 
-public class marioGame implements gamingConsole{
-	
+public class supercontraGame implements gamingConsole{
 	public void up() {
-		System.out.println("Jump");
+		System.out.println("Up");
 	}
 	public void down() {
-		System.out.println("Go into a hole");
+		System.out.println("Sit down");
 	}
 	public void left() {
 		System.out.println("Go back");
 	}
 	public void right() {
-		System.out.println("Accelerate");
+		System.out.println("Shoot a bullet");
 	}
-
 }
